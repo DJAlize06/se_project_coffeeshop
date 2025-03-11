@@ -20,7 +20,6 @@
 .header__title {
   margin: 183px 0 0;
   max-width: 729px;
-  margin-left: 80px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -32,7 +31,6 @@
 .header__description {
   margin: 28px 0 0;
   max-width: 683px;
-  margin-left: 80px;
   font-family: "Noto-Serif";
   font-style: normal;
   font-weight: normal;
