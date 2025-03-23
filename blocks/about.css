@@ -4,6 +4,9 @@
   display: flex;
   justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
 }
 
 .about__title {
@@ -38,4 +41,34 @@
 
 .about__circle {
   position: absolute;
+  background-color: #1878dc;
+  border-radius: 50%;
+  width: 426px;
+  height: 426px;
+  top: -152px;
+  left: -129px;
+  z-index: -1;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
 }
