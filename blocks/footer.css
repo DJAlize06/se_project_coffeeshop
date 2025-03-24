@@ -60,6 +60,11 @@
 }
 
 .footer__social-link {
+  transition: opacity 0.5s;
+}
+
+.footer__social-link:hover {
+  opacity: 70%;
 }
 
 .footer__copyright {
