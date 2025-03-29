@@ -1,4 +1,4 @@
-.content {
+.recipes {
   color: #fff;
   background-color: #0a2750;
   padding: 100px 80px 215px;
@@ -25,6 +25,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  max-width: 580px;
 }
 
 .recipes__subtitle {
@@ -35,6 +36,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 438px;
 }
 
 .recipes__video-caption {
@@ -52,4 +54,5 @@
 .recipes__iframe {
   height: 273px;
   width: 480px;
+  border: none;
 }

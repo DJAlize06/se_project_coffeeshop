@@ -21,6 +21,11 @@
   margin: 8px 0 32px;
   border: 1px solid #838383;
   border-radius: 4px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .form__button {
@@ -53,6 +58,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  color: black;
 }
 
 .form__checkbox {
