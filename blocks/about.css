@@ -1,15 +1,16 @@
 .about {
   background-color: #0a2850;
+  color: white;
   padding: 100px 80px 173px;
   display: flex;
   justify-content: space-between;
-  font-family: "Inter", Arial, sans-serif, "Times New Roman", serif;
-  position: relative;
+  font-family: "Inter", Arial, sans-serif;
   overflow: hidden;
   z-index: 0;
 }
 
 .about__title {
+  margin: 0;
   max-width: 251px;
   margin-bottom: 0;
   font-family: "Inter", Arial, sans-serif;

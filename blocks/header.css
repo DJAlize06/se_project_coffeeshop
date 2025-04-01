@@ -1,4 +1,5 @@
 .header {
+  box-sizing: border-box;
   padding: 30px 80px 40px;
   background: center / cover no-repeat #ffffff
     url(../images/background_header.svg);
@@ -37,6 +38,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
